@@ -15,7 +15,7 @@ using System.Collections.Generic;
 
 namespace RestWithASPNETUdemy
 {
-    public class Startup
+	public class Startup
     {
         public IWebHostEnvironment Environment { get; }
         public IConfiguration Configuration { get; }
@@ -41,6 +41,16 @@ namespace RestWithASPNETUdemy
             {
                 MigrateDatabase(connection);
             }
+
+            // trabalhando com XML
+            //services.AddMvc(options =>
+            //{
+            //    options.RespectBrowserAcceptHeader = true;
+            //    options.FormatterMappings.SetMediaTypeMappingForFormat("xml", MediaTypeHeaderValue.Parse("application/xml"));
+            //    options.FormatterMappings.SetMediaTypeMappingForFormat("json", MediaTypeHeaderValue.Parse("application/json"));
+            //})
+            //.AddXmlSerializerFormatters();
+
 
             //Version API
             services.AddApiVersioning();
