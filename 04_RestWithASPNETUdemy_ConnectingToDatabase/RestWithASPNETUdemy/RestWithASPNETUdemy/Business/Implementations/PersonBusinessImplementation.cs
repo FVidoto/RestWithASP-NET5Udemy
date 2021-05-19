@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 namespace RestWithASPNETUdemy.Business.Implementations
 {
-	public class PersonBusinessImplementation : IPersonBusiness
+    public class PersonBusinessImplementation : IPersonBusiness
     {
 
         private readonly IRepository<Person> _repository;
@@ -18,7 +18,7 @@ namespace RestWithASPNETUdemy.Business.Implementations
             _repository = repository;
             _converter = new PersonConverter();
         }
-        
+
         // Method responsible for returning all people,
         public List<PersonVO> FindAll()
         {

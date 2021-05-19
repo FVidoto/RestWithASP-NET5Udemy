@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 namespace RestWithASPNETUdemy.Business.Implementations
 {
-	public class BookBusinessImplementation : IBookBusiness
+    public class BookBusinessImplementation : IBookBusiness
     {
 
         private readonly IRepository<Book> _repository;
@@ -17,7 +17,6 @@ namespace RestWithASPNETUdemy.Business.Implementations
         {
             _repository = repository;
             _converter = new BookConverter();
-
         }
 
         // Method responsible for returning all people,
@@ -26,32 +25,33 @@ namespace RestWithASPNETUdemy.Business.Implementations
             return _converter.Parse(_repository.FindAll());
         }
 
-        // Method responsible for returning one book by ID
+        // Method responsible for returning one person by ID
         public BookVO FindByID(long id)
         {
             return _converter.Parse(_repository.FindByID(id));
         }
 
-        // Method responsible to crete one new book
-        public BookVO Create(BookVO book)
+        // Method responsible to crete one new person
+        public BookVO Create(BookVO person)
         {
-            var bookEntity = _converter.Parse(book);
-            bookEntity = _repository.Create(bookEntity);
-            return _converter.Parse(bookEntity);
+            var personEntity = _converter.Parse(person);
+            personEntity = _repository.Create(personEntity);
+            return _converter.Parse(personEntity);
         }
 
-        // Method responsible for updating one book
-        public BookVO Update(BookVO book)
+        // Method responsible for updating one person
+        public BookVO Update(BookVO person)
         {
-            var bookEntity = _converter.Parse(book);
-            bookEntity = _repository.Update(bookEntity);
-            return _converter.Parse(bookEntity);
+            var personEntity = _converter.Parse(person);
+            personEntity = _repository.Update(personEntity);
+            return _converter.Parse(personEntity);
         }
 
-        // Method responsible for deleting a book from an ID
+        // Method responsible for deleting a person from an ID
         public void Delete(long id)
         {
             _repository.Delete(id);
         }
     }
 }
+

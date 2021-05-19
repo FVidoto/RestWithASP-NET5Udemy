@@ -3,8 +3,7 @@ using System.Collections.Generic;
 
 namespace RestWithASPNETUdemy.Business
 {
-	public interface IPersonBusiness
-
+    public interface IPersonBusiness
     {
         PersonVO Create(PersonVO person);
         PersonVO FindByID(long id);

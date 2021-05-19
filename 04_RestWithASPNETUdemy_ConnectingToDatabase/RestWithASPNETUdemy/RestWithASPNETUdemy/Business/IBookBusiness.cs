@@ -3,8 +3,7 @@ using System.Collections.Generic;
 
 namespace RestWithASPNETUdemy.Business
 {
-	public interface IBookBusiness
-
+    public interface IBookBusiness
     {
         BookVO Create(BookVO book);
         BookVO FindByID(long id);
