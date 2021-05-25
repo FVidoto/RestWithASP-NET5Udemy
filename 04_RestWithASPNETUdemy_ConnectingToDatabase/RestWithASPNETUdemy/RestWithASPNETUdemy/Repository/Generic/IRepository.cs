@@ -1,9 +1,10 @@
-﻿using RestWithASPNETUdemy.Model.Base;
+﻿using RestWithASPNETUdemy.Model;
+using RestWithASPNETUdemy.Model.Base;
 using System.Collections.Generic;
 
 namespace RestWithASPNETUdemy.Repository
 {
-	public interface IRepository<T> where T : BaseEntity
+    public interface IRepository<T> where T : BaseEntity
     {
         T Create(T item);
         T FindByID(long id);
