@@ -87,6 +87,9 @@ namespace RestWithASPNETUdemy.Controllers
         // Maps DELETE requests to https://localhost:{port}/api/book/{id}
         // receiving an ID as in the Request Path
         [HttpDelete("{id}")]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
         public IActionResult Delete(long id)
         {
             _bookBusiness.Delete(id);
