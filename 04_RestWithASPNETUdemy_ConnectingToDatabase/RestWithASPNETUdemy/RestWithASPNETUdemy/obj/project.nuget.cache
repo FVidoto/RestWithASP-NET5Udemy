@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WsusjZHWodeiOd2sYz093oXGQmaAJh0BaqzhrWmLO4rzenJ73G4DNx8XlrudLBtxURuXqcpWSc3TxVlWfJjRMQ==",
+  "dgSpecHash": "O0Oo1g9F8l7TzV3/z824cVftLE2RXqdyzW4iixLG3JptwyJNkJEJFJl8fgwmXaA5kFyjtJng8oSUcjrpWdI3XQ==",
   "success": true,
   "projectFilePath": "C:\\_WorkSpace\\VisualStudio\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\04_RestWithASPNETUdemy_ConnectingToDatabase\\RestWithASPNETUdemy\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj",
   "expectedPackageFiles": [
@@ -58,6 +58,7 @@
     "C:\\Users\\Vidoto\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Vidoto\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Vidoto\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Vidoto\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512",
     "C:\\Users\\Vidoto\\.nuget\\packages\\mysqlconnector\\0.69.9\\mysqlconnector.0.69.9.nupkg.sha512",
     "C:\\Users\\Vidoto\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\Vidoto\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\3.2.0\\pomelo.entityframeworkcore.mysql.3.2.0.nupkg.sha512",
