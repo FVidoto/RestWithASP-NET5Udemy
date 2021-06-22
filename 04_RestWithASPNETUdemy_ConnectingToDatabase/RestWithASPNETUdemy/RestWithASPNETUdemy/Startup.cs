@@ -121,9 +121,9 @@ namespace RestWithASPNETUdemy
                 c.SwaggerDoc("v1",
                     new OpenApiInfo
                     {
-                        Title = "REST API´S From 0 to Azure with ASP.NET Core 5 and Docker",
+                        Title = "REST APIÂ´S From 0 to Azure with ASP.NET Core 5 and Docker Foo Bar",
                         Version = "v1",
-                        Description = "API REST API´S From 0 to Azure with ASP.NET Core 5 and Docker",
+                        Description = "API REST APIÂ´S From 0 to Azure with ASP.NET Core 5 and Docker",
                         Contact = new OpenApiContact
                         {
                             Name = "Fabiano Vidoto",
